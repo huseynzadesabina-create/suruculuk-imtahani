@@ -245,8 +245,8 @@ D) Sürəti artırmaq
     `)
 let startBool =true;
 let dogrudur = true;
-let duzgun = 0
 if( startBool === true){
+    let duzgun = 0;
 switch ( sual1) {
     case "A":
         console.log("sehvdir");
@@ -255,6 +255,7 @@ switch ( sual1) {
     case "B":
         console.log(" dogrudur");
         dogrudur = true;
+        duzgun++
         break;
     case "C":
         console.log(" sehvdir");
@@ -282,6 +283,7 @@ switch ( sual2) {
     case "A":
         console.log("dogrudur");
           dogrudur = true;
+        duzgun++
         break;
     case "B":
         console.log(" sehvdir");
@@ -321,6 +323,7 @@ switch ( sual3) {
     case "C":
         console.log("dogrudur");
          dogrudur = true;
+        duzgun++
         break;
     case "D":
         console.log("sehvdir");
@@ -343,6 +346,7 @@ switch ( sual4) {
     case "A":
         console.log("dogrudur");
           dogrudur = true;
+        duzgun++
         break;
     case "B":
         console.log(" sehvdir");
@@ -382,6 +386,7 @@ switch ( sual5) {
     case "C":
         console.log("dogrudur");
          dogrudur = true;
+        duzgun++
         break;
     case "D":
         console.log("sehvdir");
