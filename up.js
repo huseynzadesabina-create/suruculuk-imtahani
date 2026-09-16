@@ -395,10 +395,10 @@ switch ( sual5) {
 
 
 if (duzgun <0) {
-    console.log(`Tebrikler Imtahani kecdiniz`);
+    alert(`Tebrikler Imtahani kecdiniz`);
   
 }else{ 
-    console.log(" Teesufler olsun ki kesildiniz gelen il birde gelersiz. (isdeseniz) ");
+    alert(" Teesufler olsun ki kesildiniz gelen il birde gelersiz. (isdeseniz) ");
     
 }
 
