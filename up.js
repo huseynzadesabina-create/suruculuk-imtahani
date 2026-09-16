@@ -394,7 +394,7 @@ switch ( sual5) {
 }
 
 
-if (duzgun <0) {
+if (duzgun >=4) {
     alert(`Tebrikler Imtahani kecdiniz`);
   
 }else{ 
