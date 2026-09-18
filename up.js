@@ -231,12 +231,12 @@
 
 // alert(`pizza aldiz ${cheese} yekun qiymet ${qiymet}`)
 
-let surucu = prompt(`Suruculuk imtahanina xos geldiniz, Adinizi daxil edin `)
-let test = prompt(" test imtahanina daxil olmaq ucun daxil ol yazin")
+let surucu = prompt(`Sürücülük imtahanına xoş gəlmisiniz.Adınızı daxil edin. `)
+let test = prompt("İmtahana daxil olmaq üçün <daxil ol> yazin")
 
 
 
-let sual1 = prompt(`Dogru cavabi secin.
+let sual1 = prompt(`Doğru cavabı seçin.
 1. Yaşıl işıq yandıqda sürücü nə etməlidir?
 A) Dayanmaq
 B) Hərəkəti davam etdirmək (və ya başlamaq)
@@ -249,29 +249,29 @@ if( startBool === true){
     let duzgun = 0;
 switch ( sual1) {
     case "A":
-        console.log("sehvdir");
+        console.log("Səhvdir!");
          dogrudur = false;
         break;
     case "B":
-        console.log(" dogrudur");
+        console.log(" Doğrudur!");
         dogrudur = true;
         duzgun++
         break;
     case "C":
-        console.log(" sehvdir");
+        console.log(" Səhvdir!");
          dogrudur = false;
         break;
     case "D":
-        console.log("sehvdir");
+        console.log("Səhvdir!");
          dogrudur = false;
         break;
     default:
-        console.log(" yanlis secim");
+        console.log(" Yanliş seçim");
          dogrudur = false;
         break;
 }
 
-let sual2 = prompt(`Dogru cavabi secin.
+let sual2 = prompt(`Doğru cavabı seçin.
 2. Yaşayış məntəqələrində minik avtomobillərinin maksimum icazə verilən sürəti adətən neçə km/saatdır?
 A) 50 km/saat 
 B) 70 km/saat
@@ -281,29 +281,29 @@ D) 110 km/saat
 
 switch ( sual2) {
     case "A":
-        console.log("dogrudur");
+        console.log("Doğrudur!");
           dogrudur = true;
         duzgun++
         break;
     case "B":
-        console.log(" sehvdir");
+        console.log(" Səhvdir!");
        dogrudur = false;
         break;
     case "C":
-        console.log(" sehvdir");
+        console.log("Səhvdir!");
          dogrudur = false;
         break;
     case "D":
-        console.log("sehvdir");
+        console.log("Səhvdir!");
          dogrudur = false;
         break;
     default:
-        console.log(" yanlis secim");
+        console.log(" Yanlış seçim");
          dogrudur = false;
         break;
 }
 
-let sual3 = prompt(`Dogru cavabi secin.
+let sual3 = prompt(`Doğru cavabı seçin.
 3. Avtomobili idarə edərkən təhlükəsizlik kəmərindən istifadə etmək kimə şamil olunur?
 A) Yalnız sürücüyə
 B) Yalnız ön oturacaqda əyləşənlərə
@@ -313,28 +313,28 @@ D) İstəyə bağlıdır
 
 switch ( sual3) {
     case "A":
-        console.log("sehvdir");
+        console.log("Səhvdir!");
           dogrudur = false;
         break;
     case "B":
-        console.log(" sehvdir");
+        console.log(" Səhvdir!");
        dogrudur = false;
         break;
     case "C":
-        console.log("dogrudur");
+        console.log("Doğrudur!");
          dogrudur = true;
         duzgun++
         break;
     case "D":
-        console.log("sehvdir");
+        console.log("Səhvdir!");
          dogrudur = false;
         break;
     default:
-        console.log(" yanlis secim");
+        console.log(" Yanliş seçim");
          dogrudur = false;
         break;
 }
-let sual4 = prompt(`Dogru cavabi secin.
+let sual4 = prompt(`Doğru cavabı seçin.
 4. Ötmə əməliyyatını hansı tərəfdən yerinə yetirməyə icazə verilir?
 A) Yalnız sol tərəfdən 
 B) Yalnız sağ tərəfdən
@@ -344,30 +344,30 @@ D) Yolun kənarından
 
 switch ( sual4) {
     case "A":
-        console.log("dogrudur");
+        console.log("Doğrudur!");
           dogrudur = true;
         duzgun++
         break;
     case "B":
-        console.log(" sehvdir");
+        console.log(" Səhvdir!");
        dogrudur = false;
         break;
     case "C":
-        console.log("sehvdir");
+        console.log("Səhvdir!");
          dogrudur = false;
         break;
     case "D":
-        console.log("sehvdir");
+        console.log("Səhvdir!");
          dogrudur = false;
         break;
     default:
-        console.log(" yanlis secim");
+        console.log(" Yanliş seçim");
          dogrudur = false;
         break;
 }
 
 
-let sual5 = prompt(`Dogru cavabi secin.
+let sual5 = prompt(`Doğru cavabı seçin.
 5. Svetoforun qırmızı yanıb-sönən işığı və ya qırmızı siqnalı nəyi bildirir?
 A) Hərəkətə icazə verilir
 B) Diqqətli olmaqla hərəkəti davam etdirmək
@@ -376,34 +376,34 @@ D) Sürəti azaltmaq lazımdır`)
 
 switch ( sual5) {
     case "A":
-        console.log("sehvdir");
+        console.log("Səhvdir!");
           dogrudur = false;
         break;
     case "B":
-        console.log(" sehvdir");
+        console.log(" Səhvdir!");
        dogrudur = false;
         break;
     case "C":
-        console.log("dogrudur");
+        console.log("Doğrudur!");
          dogrudur = true;
         duzgun++
         break;
     case "D":
-        console.log("sehvdir");
+        console.log("Səhvdir!");
          dogrudur = false;
         break;
     default:
-        console.log(" yanlis secim");
+        console.log(" Yanliş seçim");
          dogrudur = false;
         break;
 }
 
 
 if (duzgun >=4) {
-    alert(`Tebrikler Imtahani kecdiniz`);
+    alert(`Təbriklər!!! İmtahanı uğurla başa vurdunuz.`);
   
 }else{ 
-    alert(" Teesufler olsun ki kesildiniz gelen il birde gelersiz. (isdeseniz) ");
+    alert("Kəsildiniz!!! Gələn il birdə yoxlayın. ");
     
 }
 
